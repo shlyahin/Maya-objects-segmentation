@@ -1,26 +1,20 @@
-Учебный проект в рамках первой части курса "Нейросетевые технологии"(Stepik - DLSchool,МФТИ).
+РЈС‡РµР±РЅС‹Р№ РїСЂРѕРµРєС‚ РІ СЂР°РјРєР°С… РїРµСЂРІРѕР№ С‡Р°СЃС‚Рё РєСѓСЂСЃР° "РќРµР№СЂРѕСЃРµС‚РµРІС‹Рµ С‚РµС…РЅРѕР»РѕРіРёРё"(Stepik - DLSchool,РњР¤РўР).
 
-В проекте изучаются подходы к задаче сегментации построек Майа на разных участках местности размером 240 на 240 метров. Для каждого такого участка в датасете имеется снимок с лидара размера 480x480 + снимок со спутника sentinel1 размера 24х24 + снимок со спутника sentinel2 размера 24х24. В снимке с лидара находится всего три канала, как в обычном трехцветном снимке.
+Р’ РїСЂРѕРµРєС‚Рµ РёР·СѓС‡Р°СЋС‚СЃСЏ РїРѕРґС…РѕРґС‹ Рє Р·Р°РґР°С‡Рµ СЃРµРіРјРµРЅС‚Р°С†РёРё РїРѕСЃС‚СЂРѕРµРє РњР°Р№Р° РЅР° СЂР°Р·РЅС‹С… СѓС‡Р°СЃС‚РєР°С… РјРµСЃС‚РЅРѕСЃС‚Рё СЂР°Р·РјРµСЂРѕРј 240 РЅР° 240 РјРµС‚СЂРѕРІ. Р”Р»СЏ РєР°Р¶РґРѕРіРѕ С‚Р°РєРѕРіРѕ СѓС‡Р°СЃС‚РєР° РІ РґР°С‚Р°СЃРµС‚Рµ РёРјРµРµС‚СЃСЏ СЃРЅРёРјРѕРє СЃ Р»РёРґР°СЂР° СЂР°Р·РјРµСЂР° 480x480 + СЃРЅРёРјРѕРє СЃРѕ СЃРїСѓС‚РЅРёРєР° sentinel1 СЂР°Р·РјРµСЂР° 24С…24 + СЃРЅРёРјРѕРє СЃРѕ СЃРїСѓС‚РЅРёРєР° sentinel2 СЂР°Р·РјРµСЂР° 24С…24. Р’ СЃРЅРёРјРєРµ СЃ Р»РёРґР°СЂР° РЅР°С…РѕРґРёС‚СЃСЏ РІСЃРµРіРѕ С‚СЂРё РєР°РЅР°Р»Р°, РєР°Рє РІ РѕР±С‹С‡РЅРѕРј С‚СЂРµС…С†РІРµС‚РЅРѕРј СЃРЅРёРјРєРµ.
 
-Для повторения экспериментов данного проекта необходимо загрузить в среду выполнения Kaggle соответствующий Jupyter Notebook и данные.
+Р”Р»СЏ РїРѕРІС‚РѕСЂРµРЅРёСЏ СЌРєСЃРїРµСЂРёРјРµРЅС‚РѕРІ РґР°РЅРЅРѕРіРѕ РїСЂРѕРµРєС‚Р° РЅРµРѕР±С…РѕРґРёРјРѕ Р·Р°РіСЂСѓР·РёС‚СЊ РІ СЃСЂРµРґСѓ РІС‹РїРѕР»РЅРµРЅРёСЏ Kaggle СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ Jupyter Notebook Рё РґР°РЅРЅС‹Рµ.
 
-Ссылка на данные: https://drive.google.com/file/d/1V5u9z9eumt6afNxtXjnYWZmytz2CTjNJ/view?usp=sharing
+РЎСЃС‹Р»РєР° РЅР° РґР°РЅРЅС‹Рµ: https://drive.google.com/file/d/1V5u9z9eumt6afNxtXjnYWZmytz2CTjNJ/view?usp=sharing
 
-Также для демонстрации работы моделей проекта можно загрузить в среду Kaggle соответствующие сохраненные предобученные веса из папки по адресу: https://drive.google.com/drive/folders/1MzdW3HpgIyn5_odM6gG1RPDPKKUjcdFa?usp=sharing
+РўР°РєР¶Рµ РґР»СЏ РґРµРјРѕРЅСЃС‚СЂР°С†РёРё СЂР°Р±РѕС‚С‹ РјРѕРґРµР»РµР№ РїСЂРѕРµРєС‚Р° РјРѕР¶РЅРѕ Р·Р°РіСЂСѓР·РёС‚СЊ РІ СЃСЂРµРґСѓ Kaggle СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёРµ СЃРѕС…СЂР°РЅРµРЅРЅС‹Рµ РїСЂРµРґРѕР±СѓС‡РµРЅРЅС‹Рµ РІРµСЃР° РёР· РїР°РїРєРё РїРѕ Р°РґСЂРµСЃСѓ: https://drive.google.com/drive/folders/1MzdW3HpgIyn5_odM6gG1RPDPKKUjcdFa?usp=sharing
+
 
 Educational project within the first part of the course "Neural Network Technologies" (Stepik - DLSchool, MIPT).
 
-
-
 The project studies approaches to the problem of segmentation of Mayan buildings in different areas (of size 240 by 240 meters). For each such area in the dataset there are a 480x480 lidar image + a 24x24 image from the sentinel1 satellite + a 24x24 image from the sentinel2 satellite. There are only three channels in the lidar image, as in a regular three-color image.
-
 
 To repeat the experiments of this project, you need to load the appropriate Jupyter Notebook and data into the Kaggle runtime.
 
-
-
 Data link: https://drive.google.com/file/d/1V5u9z9eumt6afNxtXjnYWZmytz2CTjNJ/view?usp=sharing
-
-
 
 You can also upload the corresponding saved pre-trained weights to the Kaggle environment to demonstrate how the project models work. Shared folder with saved weights: https://drive.google.com/drive/folders/1MzdW3HpgIyn5_odM6gG1RPDPKKUjcdFa?usp=sharing
